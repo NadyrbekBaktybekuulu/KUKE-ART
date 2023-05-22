@@ -1,0 +1,8 @@
+.nav_menu {
+    grid-area: nav;
+    background-color: blueviolet;
+}
+
+.item {
+    color: #fff;
+}

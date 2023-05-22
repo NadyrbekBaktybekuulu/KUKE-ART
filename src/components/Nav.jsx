@@ -1,12 +1,14 @@
+import styles from "./Nav.module.css";
+
 const Nav = () => {
     return (
-        <nav className="nav-menu">
+        <nav className={styles.nav_menu}>
             <ul>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a className={styles.item} href="#">Profile</a></li>
+                <li><a className={styles.item} href="#">Messages</a></li>
+                <li><a className={styles.item} href="#">News</a></li>
+                <li><a className={styles.item} href="#">Music</a></li>
+                <li><a className={styles.item} href="#">Settings</a></li> 
             </ul>
         </nav>
     )
