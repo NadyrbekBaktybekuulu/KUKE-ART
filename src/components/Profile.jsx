@@ -11,8 +11,13 @@ const Profile = () => {
                 <img className={styles.avatar} src="https://www.hotelbooqi.com/wp-content/uploads/2021/12/128-1280406_view-user-icon-png-user-circle-icon-png.png" />
 
                 <div className={styles.description}>
-                    <p>lorem lorem lorem lorem lorem lorem</p>
-                    <p className={styles.item}>lorem</p>
+                    <div className={styles.posts}>
+                        <div className={styles.items}>post nomber 1</div>
+                        <div className={styles.items}>post nomber 2</div>
+                        <div className={styles.items}>post nomber 3</div>
+                        <div className={styles.item}>post nomber 4</div>
+                        <div className={styles.item}>post nomber 5</div>
+                    </div>
                 </div>
             </div>
             <div></div>
