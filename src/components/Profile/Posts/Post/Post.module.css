@@ -1,0 +1,12 @@
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+}
+
+.item {
+    color: green;
+}
