@@ -1,0 +1,8 @@
+.header {
+    background-color: gray;
+    grid-area: header;
+}
+
+.logo {
+    height: 70px;
+}

@@ -6,17 +6,18 @@
 
 .app-wrapper {
   display: grid;
+  align-self: center;
   max-width: 1200px;
   margin: 0 auto;
-  justify-content: center;
+  grid-area: header;
 
   grid-template-areas:
     "header header header"
-    "nav main-content main-content"
+    "nav main main"
   ;
 
   grid-template-rows: 70px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 2.5fr 10fr;
   grid-gap: 10px;
 }
 

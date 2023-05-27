@@ -1,0 +1,22 @@
+.navbar {
+    grid-area: nav;
+    background-color: aqua;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a {
+    display: block;
+    transition: ease 0.3s;
+    padding-left: 50px;
+    color: grey;
+}
+
+.navbar a:hover {
+    background-color: grey;
+    color: azure;
+    font-size: 20px;
+
+}
