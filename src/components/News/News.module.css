@@ -1,0 +1,11 @@
+.title {
+    font-size: 60px;
+    color: gray;
+    text-align: center;
+}
+
+.abzats {
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
