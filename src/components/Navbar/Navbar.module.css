@@ -12,6 +12,7 @@
     transition: ease 0.3s;
     padding-left: 50px;
     color: grey;
+    cursor: pointer !important;
 }
 
 .navbar a:hover {
@@ -25,4 +26,15 @@ a.activeLink {
     background-color: grey;
     color: azure;
     font-size: 20px;
+}
+
+.indent {
+    margin-top: 100px;
+}
+
+.usersSect {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding-top: 30px;
 }

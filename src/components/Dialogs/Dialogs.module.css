@@ -1,3 +1,33 @@
-.dialogs {
+.dialogsWrapper {
     grid-area: main;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    border: solid gray 1px;
+}
+
+.dialogs {
+    background-color: darkgray;
+    border-right: solid gray 2px;
+}
+
+.messages {
+    background-color: rgb(211, 209, 209);
+    box-shadow: inset 2px 0 10px rgb(133, 132, 132);
+}
+
+.dialog {
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px 40px;
+    font-weight: 700;
+    font-size: 15px;
+    transition: ease 0.2s;
+    color: white;
+
+    cursor: pointer;
+}
+
+.dialog:hover {
+    background-color: aquamarine;
+    color: rgb(128, 128, 128);
 }
